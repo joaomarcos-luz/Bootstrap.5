@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+
+        .row{
+            height: 200px;
+            background-color: white;
+        }
+
+        .col-3{
+            background-color: white;
+            padding: 20px;
+            border: solid 3px black;
+        }
+
+    </style>
+    <title>Deslocamento nas colunas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- mx-auto vai pegar o espaço restante no container e dividir em duas partes colocando metade a esquerda eo restante a direita e assim centralizando a div que contem a class: mx-auto. -->
+            <div class="col-3 mx-auto">Div 1</div>
+             <!-- <div class="col-3 ms-auto">Div 2</div> -->
+            <!-- <div class="col-3 order-0">Div 3</div> -->
+        </div>
+    </div>
+</body>
+</html>
