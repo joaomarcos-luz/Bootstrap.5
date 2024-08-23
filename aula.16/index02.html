@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- col-: Para todos os dispositivos (extra pequeno)
+        col-sm-: Para dispositivos pequenos (≥576px)
+        col-md-: Para dispositivos médios (≥768px)
+        col-lg-: Para dispositivos grandes (≥992px)
+        col-xl-: Para 65ispositivos extra grandes (≥1200px) -->
+
+    <!-- <992px aparecera -->
+    <div class="p-4 col-3 d-none d-lg-block m-3 bg-primary"></div>
+    <!-- ≥992px não aparecera -->
+    <div class="p-4 col-3 d-block d-lg-none m-3 bg-success"></div>
+    <div class="p-4 col-3 d-block m-3 bg-warning"></div>
+</body>
+</html>
