@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container p-5">
+        <forms>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="Digite seu email">
+                <div class="form-text">Não compartilharemos seu Email com terceiros.</div>
+            </div>
+            <div class="mb-3">
+                <label for="senha" class="form-label">Senha</label>
+                <input type="password" id="senha" class="form-control">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" id="lemrar" class="form-check-control">
+                <label for="lemrar" class="form-check-label">Lembrar de mim</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+        </forms>
+        <hr>
+        <input type="file" id="arquivo" class="form-control">
+        <input type="color" name="" id="cor" class="form-control">
+        <hr>
+        <div class="mb-3">
+            <label for="cidade" class="form-label">Cidade</label>
+            <input type="text" class="form-control" placeholder="Digitar para buscar..." list="cidades">
+            <datalist id="cidades">
+                <option value="Ciadade 1"></option>
+                <option value="Ciadade 2"></option>
+                <option value="Ciadade 3"></option>
+                <option value="Ciadade 4"></option>
+                <option value="Ciadade 5"></option>
+            </datalist>
+        </div>
+    </div>
+</body>
+</html>
